@@ -39,7 +39,7 @@ const createElementsFromResult = (books) => {
 };
 
 const clearElements = () => {
-  for (let i = 0; i < outputField.childNodes.length; i++) {
+  for (let i = outputField.childNodes.length - 1; i >= 0; i--) {
     outputField.removeChild(outputField.childNodes[i]);
   }
 }
