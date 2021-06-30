@@ -1,0 +1,32 @@
+body {
+  font-family: "Questrial", sans-serif;
+  margin-top: 50px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: #FBE5C8;
+}
+
+.logo-first {
+  font-size: 60px;
+  color: #FBE5C8;
+}
+
+.logo-second {
+  font-size: 20px;
+  margin-left: 150px;
+  color: #FBE5C8;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #FBE5C8;
+}
+
+/*# sourceMappingURL=header.css.map */

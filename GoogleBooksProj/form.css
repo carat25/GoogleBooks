@@ -1,0 +1,26 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-width: 100px;
+}
+
+.form-input {
+  font-size: 1.6rem;
+  width: 60%;
+  border-radius: 10px 10px;
+  border: 1px solid #523A28;
+  background-color: #FBE5C8;
+}
+
+.form-button {
+  width: 60px;
+  height: 30px;
+  border-radius: 10px 10px;
+  border: none;
+  background-color: #FACB80;
+  font-family: "Questrial", sans-serif;
+  color: #523A28;
+}
+
+/*# sourceMappingURL=form.css.map */

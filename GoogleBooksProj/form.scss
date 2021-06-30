@@ -1,0 +1,30 @@
+$primary-font: "Questrial", sans-serif;
+$primary-color: #FBE5C8;
+$secondary-color: #FACB80;
+$tertiary-color: #523A28;
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-width: 100px;
+}
+
+.form-input {
+    font-size: 1.6rem;
+    width: 60%;
+    border-radius: 10px 10px;
+    border: 1px solid $tertiary-color;
+    background-color: $primary-color;
+}
+
+.form-button {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px 10px;
+    border: none;
+    background-color: $secondary-color;
+    font-family: $primary-font;
+    color: $tertiary-color;
+}

@@ -1,0 +1,39 @@
+$primary-font: "Questrial", sans-serif;
+$primary-color: #fbe5c8;
+$secondary-color: #facb80;
+$tertiary-color: #f69770;
+
+$phone: 576px;
+$tablet: 992px;
+
+.result-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+
+  @media only screen and (max-width: $phone) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  @media only screen and (min-width: $phone + 1px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.result-grid-display {
+  margin-top: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px solid $tertiary-color;
+  padding: 25px;
+  border-radius: 10px 10px;
+  background-color: $primary-color;
+}
+
+.output-text {
+  color: #7b583d;
+}

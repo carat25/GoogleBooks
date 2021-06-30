@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoogleBooks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="section.css" />
+    <style>
+      body {
+        background-image: url("books.jpeg");
+        background-size: cover;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">
+        <span class="logo-first">Google</span>
+        <span class="logo-second">Books</span>
+      </h1>
+      <p class="description">
+        Search the world's most comprehensive index of full-text books
+      </p>
+    </header>
+    <form id="form" class="form-container">
+      <input type="text" id="input" class="form-input" />
+      <button class="form-button">Search</button>
+    </form>
+    <section>
+      <div id="result" class="result" ></div>
+        <div id="output" class="result-grid" ></div>
+    </section>
+    <script type="module" src="./api.js"></script>
+    <script type="module" src="./dom.js"></script>
+  </body>
+</html>

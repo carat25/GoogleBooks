@@ -1,0 +1,38 @@
+$primary-font: "Questrial", sans-serif;
+$primary-color: #FBE5C8;
+$secondary-color: #FACB80;
+$tertiary-color: #F69770;
+
+
+
+body {
+  font-family: $primary-font;
+  margin-top: 50px;
+  
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: $primary-color;
+}
+
+.logo-first {
+  font-size: 60px;
+  color: $primary-color;
+}
+
+.logo-second {
+  font-size: 20px;
+  margin-left: 150px;
+  color: $primary-color;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: $primary-color;
+}
