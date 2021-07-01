@@ -1,7 +1,8 @@
 $primary-font: "Questrial", sans-serif;
 $primary-color: #FBE5C8;
 $secondary-color: #FACB80;
-$tertiary-color: #523A28;
+$tertiary-color: #f69770;
+$fourth-color: #523A28;
 
 
 .form-container {
@@ -26,5 +27,5 @@ $tertiary-color: #523A28;
     border: none;
     background-color: $secondary-color;
     font-family: $primary-font;
-    color: $tertiary-color;
+    color: $fourth-color;
 }

@@ -2,6 +2,8 @@ $primary-font: "Questrial", sans-serif;
 $primary-color: #fbe5c8;
 $secondary-color: #facb80;
 $tertiary-color: #f69770;
+$fourth-color: #523A28;
+
 
 $phone: 576px;
 $tablet: 992px;
@@ -31,9 +33,10 @@ $tablet: 992px;
   border: 2px solid $tertiary-color;
   padding: 25px;
   border-radius: 10px 10px;
-  background-color: $primary-color;
+  background-color: rgba(251,229,200, 0.6);
+  
 }
 
 .output-text {
-  color: #7b583d;
+  color: $fourth-color;
 }
