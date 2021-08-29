@@ -8,7 +8,7 @@ Books search engine website created using HTML, CSS, Sass, Javascript and Google
 * [Introduction](#introduction)
 * [Technologies](#technologies)
 * [Room for Improvement](#room-for-improvement)
-* [Acknowledgement](#acknowledgments)
+
 
 
 # Introduction
@@ -29,8 +29,5 @@ Room for improvement:
 * When user clicks a book in the grid, a modal should appear with more book information (e.g. release date, publish date, country, languages, etc.
 
 
-# Acknowledgement
-* This project's design was inspired by Harry Potter movies.
-* Many thanks to @remihoeppe for helping me when I stuck in where to add a div container for the books and to my husband of course, my greatest critic :smile:
 
 
