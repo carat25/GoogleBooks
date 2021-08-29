@@ -14,6 +14,7 @@ Books search engine website created using HTML, CSS, Sass, Javascript and Google
 # Introduction
 This is a simple book search engine exactly like google books and is using the google books API. The website contains a main search bar which allows user to display books filtered as per user's query. The books returned contains an image of the book (if available), the book title, the author/s and the book description.
 
+Demo site: https://carat25.github.io/GoogleBooks/
 
 # Technologies
 * HTML
